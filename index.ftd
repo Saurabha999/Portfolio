@@ -55,7 +55,6 @@ link: https://github.com/Saurabha999
 
 -- ftd.container:
 padding-bottom.px: 20
-
 ;; ------------------------------------------
 ;; ***** PORTFOLIO Hero UI Mobile view starts *****
 ;; ------------------------------------------
@@ -166,6 +165,15 @@ spacing.fixed.px: 100
 -- ftd.column:
 spacing.fixed.px: 20
 
+;; ---------color-------
+
+-- ftd.color yellow-red:
+light: yellow
+dark: red
+background.solid: $yellow-red
+color: $inherited.colors.text-strong
+
+;;--------------test-------
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: I'm
 secondTitle: SAURABHA SAWANT,
